@@ -2,6 +2,8 @@ import "../App.css"
 import { PopupContextFunction } from "../Context/PopupContext";
 import { BsX } from "react-icons/bs"
 import { useEffect, useRef, useState } from "react"
+import Popup2 from "./Popup2";
+import { Popup2ContextFunction } from "../Context/PopupContext2";
 
 function Signup() {
 
@@ -13,7 +15,10 @@ function Signup() {
         zip: ""
     })
 
+    const [ name, setName ] = useState();
+
     const { popup, closePopup } = PopupContextFunction()
+    const { openModal } = Popup2ContextFunction()
 
     const signRef = useRef()
 
@@ -54,6 +59,8 @@ function Signup() {
     function handleSubmit(e) {
         e.preventDefault();
 
+        setName(userInfo.name)
+
         setUserInfo({
             name: "",
             email: "",
@@ -61,6 +68,8 @@ function Signup() {
             address: "",
             zip: "",
         })
+
+        openModal()
     }
 
     return (
@@ -90,6 +99,9 @@ function Signup() {
                     </form>
 
                     <span className="exit" onClick={closePopup}><BsX /></span>
+
+                    <Popup2 name={name} />
+
                 </div>
             </div>
         </div>
