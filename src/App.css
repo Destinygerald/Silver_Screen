@@ -720,6 +720,7 @@ body {
  .signup-form > input {
   padding: 10px 12px;
   font-size: .7rem;
+   background-color: white;
  }
 
  .sign-btn {
