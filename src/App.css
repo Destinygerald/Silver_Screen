@@ -573,7 +573,9 @@ body {
     width: 220px;
     height: 260px;
   }
-  
+  .front-page {
+    overflow-x: hidden;
+  }
   .front-top-sides > div:last-child {
     width: 140px;
     height: 400px;
