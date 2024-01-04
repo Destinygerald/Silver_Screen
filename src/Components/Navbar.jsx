@@ -9,7 +9,7 @@ function Navbar() {
     return (
         <div className="navbar">
 
-            <div className="logo"><img src="public/uxvcsohu2.png" alt="logo" /></div>
+            <div className="logo"><img src="/uxvcsohu2.png" alt="logo" /></div>
 
             <ul>
                 <li><Link to="#about"> About </Link></li>
