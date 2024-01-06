@@ -87,7 +87,7 @@ function Signup() {
                     <span>Join</span>
 
                     <form className="signup-form" onSubmit={handleSubmit}>
-                        <input type="text" placeholder="Name" name="name" value={userInfo.name} onChange={handleChange} required />
+                        <input type="text" placeholder="Full Name" name="name" value={userInfo.name} onChange={handleChange} required />
                         <input type="email" placeholder="Email" name="email" value={userInfo.email} onChange={handleChange} required />
                         <input type="tel" placeholder="Phone Number" name="phone" value={userInfo.phone} onChange={handleChange} required />
                         <input type="text" placeholder="House Address" name="address" value={userInfo.address} onChange={handleChange} required />
