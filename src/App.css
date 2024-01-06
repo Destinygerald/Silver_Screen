@@ -536,7 +536,7 @@ body {
 }
 
 .popup2 > img {
-  width: 32px;
+  width: 44px;
   object-fit: contain;
 }
 
@@ -742,7 +742,7 @@ body {
  }
 
  .popup2 {
-  right: 30%;
+  right: -35%;
   width: 320px;
  }
 
