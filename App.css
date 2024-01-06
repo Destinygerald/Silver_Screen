@@ -534,7 +534,7 @@ body {
 
 .popup2 > img {
   width: 32px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .popup2 > span:nt-child(2) {
