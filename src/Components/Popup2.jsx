@@ -14,6 +14,7 @@ function Popup2({name}) {
 
     return (
         <div className={ modal ? "popup2" : "popup2close"}>
+            <img src="/verified-icon.png" alt="load" />
             <span> Congratulations, your application has been submitted. We will review your application and get back to you within 2 business days</span>
             <button onClick={Close} > Continue </button>
         </div>
