@@ -18,7 +18,7 @@ function Signup() {
     const [ name, setName ] = useState();
 
     const { popup, closePopup } = PopupContextFunction()
-    const { openModal } = Popup2ContextFunction()
+    const { openModal,closeModal } = Popup2ContextFunction()
 
     const signRef = useRef()
 
@@ -27,6 +27,7 @@ function Signup() {
     function Close(e) {
         if (!signRef.current.contains(e.target)){
             closePopup()
+            closeModal()
             setUserInfo({
                 name: "",
                 email: "",
