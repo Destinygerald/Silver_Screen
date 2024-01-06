@@ -532,6 +532,11 @@ body {
   padding: 48px;
 }
 
+.popup2 > img {
+  height: 32px;
+  object-fit: contain;
+}
+
 .popup2 > span:nt-child(2) {
   width: 240px;
   text-align: center;
