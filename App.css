@@ -514,7 +514,7 @@ body {
   background-color: white;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .3) ;
   width: 360px;
-  height: auto;
+  height: 272px;
   left: -50%;
   top: 15%;
   translate: 15% 0;
@@ -529,11 +529,11 @@ body {
   gap: 12px;
   color: #777;
   font-weight: 700;
-  padding: 48px;
 }
 
-.popup2 > img {
+.popup2 img {
   width: 32px;
+  height: 32px;
   object-fit: cover;
 }
 
@@ -735,7 +735,7 @@ body {
  }
 
  .popup2 {
-  right: 0;
+  right: 20%;
   width: 320px;
  }
 
