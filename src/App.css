@@ -535,7 +535,12 @@ body {
   font-weight: 700;
 }
 
-.popup2 > span:first-child {
+.popup > img {
+  width: 32px;
+  object-fit: contain;
+}
+
+.popup2 > span:nth-child(2) {
   width: 240px;
   text-align: center;
 }
@@ -737,7 +742,7 @@ body {
  }
 
  .popup2 {
-  right: 0%;
+  right: 30%;
   width: 320px;
  }
 
