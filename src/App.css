@@ -744,8 +744,8 @@ body {
  .popup2 {
   width: 320px;
    position: fixed;
-   top: 30%;
-   left: 14%;
+   top: 20%;
+   left: 20%;
    translate: -50% 50%;
    
  }
