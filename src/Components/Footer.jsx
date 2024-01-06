@@ -7,7 +7,7 @@ function Footer() {
             <span className="ftt-bck">Emilia Clarke</span>
 
             <span>
-                Join Now
+                
             </span>
 
             <div className="footer-main">
